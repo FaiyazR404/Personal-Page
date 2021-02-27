@@ -1,0 +1,207 @@
+/**** Tag Selectors ***/
+body {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /*** find out perc by dividing the number by 16 ***/
+  /*** 16px = 100% = 1em ***/
+  margin: 50px auto 0 auto;
+  font-family: 'Stick', sans-serif;
+  color: white;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Stick', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: normal;
+}
+
+h3 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1;
+}
+
+hr {
+  margin: 100px auto;
+  border-style: dotted none none none;
+  width: 10%;
+  border-width: 15px;
+  color: white;
+}
+
+
+
+/**** Class Selectors ***/
+
+.top-container {
+  background-color: black;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #121013;
+}
+
+.bottom-container {
+  background-color: black;
+  margin: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 10%;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 10%;
+  left: 300px;
+  bottom: 300px;
+}
+
+.clan-logo {
+  width: 20%;
+}
+
+.web-dev {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.Graphic-design {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.profile-picture {
+  height: 200px;
+  width: auto;
+  margin-top: 100px;
+  border-radius: 50%;
+}
+
+.profile-description {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+  border: 1px solid white;
+  padding: 30px;
+
+}
+
+.contact-description {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+}
+
+
+.footer-link {
+  line-height: 2;
+  color: #11999E;
+}
+
+
+.skill-title {
+  text-decoration: underline;
+
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.btn {
+  background: #575656;
+  background-image: -webkit-linear-gradient(top, #575656, #000000);
+  background-image: -moz-linear-gradient(top, #575656, #000000);
+  background-image: -ms-linear-gradient(top, #575656, #000000);
+  background-image: -o-linear-gradient(top, #575656, #000000);
+  background-image: linear-gradient(to bottom, #575656, #000000);
+  -webkit-box-shadow: 0 1px 3px #000000;
+  -moz-box-shadow: 0 1px 3px #000000;
+  box-shadow: 0 1px 3px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #999999;
+  background-image: -webkit-linear-gradient(top, #999999, #4d4d4d);
+  background-image: -moz-linear-gradient(top, #999999, #4d4d4d);
+  background-image: -ms-linear-gradient(top, #999999, #4d4d4d);
+  background-image: -o-linear-gradient(top, #999999, #4d4d4d);
+  background-image: linear-gradient(to bottom, #999999, #4d4d4d);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999E;
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+
+}
+
+.linkedin {
+  position: relative;
+  right: 50px;
+  font-size: 30px;
+}
+
+.twitter{
+  position: relative;
+  font-size: 30px;
+}
+
+.website {
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+}
+
+.font-awe {
+  color: #fff;
+  text-align: center;
+  background-color: black;
+  padding: 50px;
+}
+
+.copyrights{
+  margin: 50px auto 0 auto;
+  padding-bottom: 50px;
+}
+
+/**** ID Selectors ***/
