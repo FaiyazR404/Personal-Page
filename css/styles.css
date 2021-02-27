@@ -34,45 +34,51 @@ h3 {
 hr {
   margin: 100px auto;
   border-style: dotted none none none;
+  background-color: #121013;
   width: 10%;
   border-width: 15px;
-  color: white;
 }
 
+/* ID Selectors */
+
+#top-container {
+  background-color: black;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#middle-container {
+  background-color: #121013;
+}
+
+#bottom-container {
+  background-color: black;
+  margin: 0;
+}
 
 
 /**** Class Selectors ***/
 
-.top-container {
-  background-color: black;
-  position: relative;
-  padding-top: 100px;
-}
-
-.middle-container {
-  background-color: #121013;
-}
-
-.bottom-container {
-  background-color: black;
-  margin: 0;
+.navbar {
 }
 
 .top-cloud {
   position: absolute;
   width: 10%;
   right: 300px;
-  top: 50px;
+  top: 90px;
 }
 
 .bottom-cloud {
   position: absolute;
   width: 10%;
-  left: 300px;
-  bottom: 300px;
+  left: 10%;
+  bottom: 20%;
 }
 
 .clan-logo {
+  padding: 20px;
   width: 20%;
 }
 
